@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Do Eat</title>
+    <link rel="stylesheet" href="css/main.css" />
+    <script defer src="js/main.js"></script>
+  </head>
+  <body>
+    <div id="wrap">
+      <header id="header">
+        <img id="logo" src="img/Do_Eat_Logo.png" onclick="gotomain()" />
+        <div id="user">
+          <div id="search">
+            <input
+              type="text"
+              id="search_text"
+              placeholder="검색어를 입력하세요."
+            />
+            <button id="search_button">search</button>
+          </div>
+          <button id="login_button">login</button>
+        </div>
+      </header>
+      <nav id="menubar">
+        <ul>
+          <li><a id="home" href="index.html">home</a></li>
+          <li><a id="recipe" href="recipe.html">recipe</a></li>
+          <li><a id="kitchen tip" href="kitchen_tip.html">kitchen tip</a></li>
+          <li><a id="nutrition" href="#">nutrition</a></li>
+          <li><a id="community" href="#">community</a></li>
+        </ul>
+      </nav>
+
+      <section id="introduction">
+        <div id="introduction_screen"></div>
+        <img id="intro_pic" src="img/intro_img/intro1.jpg" />
+        <img src="img/left.png" id="left" onclick="intro(0)" />
+        <img src="img/right.png" id="right" onclick="intro(4)" />
+        <div id="intro1">
+          <p><span>"Do Eat"은</span> 무언가를 하다의 의미인 "Do"와</p>
+          <p>먹다라는 의미인 "Eat"를 합쳐 만든 서비스입니다.</p>
+          <p id="intro_content">
+            "Do Eat"은 무언가를 해 먹을 수 있길 바라는 마음으로 서비스를
+            제공하고 있습니다.
+          </p>
+        </div>
+      </section>
+
+      <section id="today_menu">
+        <div id="today_menu_title">
+          <h2>오늘의 추천 메뉴</h2>
+        </div>
+
+        <div id="today_menu_list">
+          <article class="today_menu">
+            <img id="rice_noodle" src="img/쌀국수.JPG" alt="쌀국수" />
+            <h3><a href="#">쌀국수</a></h3>
+            <p>한국에서 즐기는 베트남의 맛</p>
+          </article>
+          <article class="today_menu">
+            <img id="kalguksu" src="img/칼국수.jpg" alt="감자 칼국수" />
+            <h3><a href="#">감자칼국수</a></h3>
+            <p>추운 날에 따뜻한 감자칼국수</p>
+          </article>
+          <article class="today_menu">
+            <img
+              id="clam_pasta"
+              src="img/봉골레파스타.jpg"
+              alt="봉골레파스타"
+            />
+            <h3><a href="#">봉골레 파스타</a></h3>
+            <p>깔끔하면서 시원한 맛의 파스타</p>
+          </article>
+          <article class="today_menu">
+            <img id="안심카츠" src="img/돈까스.jpg" alt="돈까스" />
+            <h3><a href="#">돈까스</a></h3>
+            <p>어린이에게 인기만점</p>
+          </article>
+          <img
+            id="view_more"
+            src="img/more.png"
+            alt="레시피 더보기"
+            onclick="view_more()"
+          />
+        </div>
+      </section>
+      <section id="homecafe">
+        <div id="homecafe_menu_title">
+          <h2>집에서 즐기는 홈카페</h2>
+        </div>
+
+        <div id="homecafe_menu_list">
+          <article class="homecafe_menu">
+            <img src="img/마들렌.jpg" alt="마들렌" />
+            <h3><a href="#">초코 마들렌</a></h3>
+            <p>커피와 잘 어울리는 초코 마들렌</p>
+          </article>
+          <article class="homecafe_menu">
+            <img src="img/아인슈페너.jpg" alt="아인슈페너" />
+            <h3><a href="#">아인슈페너</a></h3>
+            <p>크림과 아메리카노의 환상적인 조합</p>
+          </article>
+          <article class="homecafe_menu">
+            <img src="img/머랭쿠키.jpg" alt="머랭쿠키" />
+            <h3><a href="#">머랭쿠키</a></h3>
+            <p>달걀 흰자의 매력적인 변신</p>
+          </article>
+          <article class="homecafe_menu">
+            <img id="potato_sandwich" src="img/딸기라떼.JPG" alt="딸기라떼" />
+            <h3><a href="#">딸기라떼</a></h3>
+            <p>디저트로 달달한 딸기라떼</p>
+          </article>
+
+          <img
+            id="view_more"
+            src="img/more.png"
+            alt="레시피 더보기"
+            onclick="view_more()"
+          />
+        </div>
+      </section>
+
+      <footer id="copyright"></footer>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kitchen Tip</title>
+    <script defer src="js/kitchen_tip.js"></script>
+    <link rel="stylesheet" href="css/kitchen_tip.css" />
+  </head>
+  <body>
+    <div id="wrap3">
+      <header>
+        <img id="logo" src="img/Do_Eat_Logo.png" onclick="gotomain()" />
+        <div id="user">
+          <div id="search">
+            <input
+              type="text"
+              id="search_text"
+              placeholder="검색어를 입력하세요."
+            />
+            <button id="search_button">search</button>
+          </div>
+          <button id="login_button">login</button>
+        </div>
+      </header>
+      <nav id="menubar">
+        <ul>
+          <li><a id="home" href="index.html">home</a></li>
+          <li><a id="recipe" href="recipe.html">recipe</a></li>
+          <li><a id="kitchen_tip" href="kitchen_tip.html">kitchen tip</a></li>
+          <li><a id="nutrition" href="#">nutrition</a></li>
+          <li><a id="community" href="#">community</a></li>
+        </ul>
+      </nav>
+      <div class="title">
+        <h1>Kitchen Tip</h1>
+        <p>퀄리티 있는 요리를 위한 kitchen tip</p>
+      </div>
+
+      <div class="category_menu">
+        <ul>
+          <li><a href="kitchen_tip.html">전체</a></li>
+          <li><a href="재료손질법.html">재료 손질법</a></li>
+          <li><a href="#">재료 보관법</a></li>
+          <li><a href="#">도구 사용법</a></li>
+          <li><a href="#">요리 정보</a></li>
+          <li><a href="#">기타 정보</a></li>
+        </ul>
+      </div>
+
+      <section id="ingredient_tip">
+        <div id="ingredient_tip_list">
+          <article class="ingredient_tip_menu">
+            <img src="img/꽃게.jpg" alt="꽃게" />
+            <h3><a href="#">꽃게 손질법</a></h3>
+            <p>아미노산, 칼슘, 아연, 철분이 풍부해요</p>
+          </article>
+          <article class="ingredient_tip_menu">
+            <img src="img/오징어.jpg" alt="오징어" />
+            <h3><a href="#">오징어 손질법</a></h3>
+            <p>풍부한 타우린 성분으로 피로회복해요</p>
+          </article>
+          <article class="ingredient_tip_menu">
+            <img src="img/망고.jpg" alt="망고" />
+            <h3><a href="#">망고 자르기</a></h3>
+            <p>비타민A가 풍부해요</p>
+          </article>
+          <article class="ingredient_tip_menu">
+            <img src="img/바지락.png" alt="바지락" />
+            <h3><a href="#">바지락 해감법</a></h3>
+            <p>혈관 건강과 피로회복에 좋아요</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="ustensile_tip">
+        <div id="ustensile_tip_list">
+          <article class="ustensile_tip_menu">
+            <img src="img/칼.jpg" alt="칼" />
+            <h3><a href="#">칼의 종류</a></h3>
+            <p>칼마다의 용도를 알아보아요</p>
+          </article>
+          <article class="ustensile_tip_menu">
+            <img src="img/계량스푼.jpeg" alt="계량스푼" />
+            <h3><a href="#">계량스푼의 종류</a></h3>
+            <p>음식 맛을 결정하는 계량법을 배워요</p>
+          </article>
+          <article class="ustensile_tip_menu">
+            <img src="img/커피.jpg" alt="커피" />
+            <h3><a href="#">커피 도구의 명칭</a></h3>
+            <p>커피를 내리기 전에 도구를 알아보아요</p>
+          </article>
+          <article class="ustensile_tip_menu">
+            <img src="img/나무도마.jpg" alt="원목도마" />
+            <h3><a href="#">원목도마 관리법</a></h3>
+            <p>원목을 오래 사용하는 방법</p>
+          </article>
+        </div>
+      </section>
+
+
+      <section id="cooking_tip">
+        <div id="cooking_tip_list">
+          <article class="cooking_tip_menu">
+            <img src="img/대게.jpeg" alt="대게 찌는 법" />
+            <h3><a href="#">대게 찌는 법</a></h3>
+            <p>집에 대게 찌는 방법</p>
+          </article>
+          <article class="cooking_tip_menu">
+            <img src="img/salt.jpg" alt="소금의 종류 알아보기" />
+            <h3><a href="#">소금의 종류</a></h3>
+            <p>음식마다 어울리는 소금을 사용해요</p>
+          </article>
+          <article class="cooking_tip_menu">
+            <img src="img/곡물.jpg" alt="현대인에게 추천하는 곡물" />
+            <h3><a href="#">현대인에게 추천하는 곡물</a></h3>
+            <p>각자에게 맞는 곡물을 섭취해요</p>
+          </article>
+          <article class="cooking_tip_menu">
+            <img src="img/타르트지.jpg" alt="타르트지 만드는 법" />
+            <h3><a href="#">타르트지 만드는 법</a></h3>
+            <p>타르트지 쉽게 만드는 방법</p>
+          </article>
+        </div>
+        
+      </section>
+    </div>
+  </body>
+</html>

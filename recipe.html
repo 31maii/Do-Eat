@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Recipe</title>
+    <link rel="stylesheet" href="css/recipe.css" />
+    <script defer src="js/recipe.js"></script>
+  </head>
+  <body>
+    <div id="wrap1">
+      <header id="header1">
+        <img id="logo1" src="img/Do_Eat_Logo.png" onclick="gotomain()" />
+        <div id="user">
+          <div id="search">
+            <input
+              type="text"
+              id="search_text"
+              placeholder="검색어를 입력하세요."
+            />
+            <button id="search_button">search</button>
+          </div>
+          <button id="login_button">login</button>
+        </div>
+      </header>
+      <nav id="menubar">
+        <ul>
+          <li><a id="home" href="index.html">home</a></li>
+          <li><a id="recipe" href="recipe.html">recipe</a></li>
+          <li><a id="kitchen tip" href="kitchen_tip.html">kitchen tip</a></li>
+          <li><a id="nutrition" href="#">nutrition</a></li>
+          <li><a id="community" href="#">community</a></li>
+        </ul>
+      </nav>
+
+      <div class="title">
+        <h1>Recipe</h1>
+        <p>Do Eat을 통해 맛있는 음식을 만들어 보아요:)</p>
+      </div>
+
+      <div class="category">
+        <h2>종류별 레시피</h2>
+        <div class="category_menu">
+          <ul>
+            <li><a href="#">전체</a></li>
+            <li><a href="#">밥/죽</a></li>
+            <li><a href="#">국/탕</a></li>
+            <li><a href="#">찌개/전골</a></li>
+            <li><a href="#">밑반찬</a></li>
+            <li><a href="#">빵</a></li>
+            <li><a href="#">면</a></li>
+            <li><a href="#">김치/젓갈/장류</a></li>
+            <li><a href="#">메인요리</a></li>
+            <li><a href="#">디저트</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="category">
+        <h2>상황별 레시피</h2>
+        <div class="category_menu">
+          <ul>
+            <li><a href="#">전체</a></li>
+            <li><a href="#">일상</a></li>
+            <li><a href="#">자취</a></li>
+            <li><a href="#">명절</a></li>
+            <li><a href="#">파티</a></li>
+            <li><a href="#">집들이</a></li>
+            <li><a href="#">손님상</a></li>
+            <li><a href="#">다이어트</a></li>
+            <li><a href="#">간식</a></li>
+            <li><a href="#">이유식</a></li>
+            <li><a href="#">도시락</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="category">
+        <h2>재료별 레시피</h2>
+        <div class="category_menu">
+          <ul>
+            <li><a href="#">전체</a></li>
+            <li><a href="#">소고기</a></li>
+            <li><a href="#">돼지고기</a></li>
+            <li><a href="#">닭고기</a></li>
+            <li><a href="#">기타 육류</a></li>
+            <li><a href="#">채소류</a></li>
+            <li><a href="#">해산물</a></li>
+            <li><a href="#">달걀</a></li>
+            <li><a href="#">유제품</a></li>
+            <li><a href="#">밀가루</a></li>
+            <li><a href="#">건어물</a></li>
+            <li><a href="#">버섯류</a></li>
+            <li><a href="#">과일류</a></li>
+            <li><a href="#">콩/견과류</a></li>
+            <li><a href="#">곡류</a></li>
+            <li><a href="#">기타</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="category">
+        <h2>방법별 레시피</h2>
+        <div class="category_menu">
+          <ul>
+            <li><a href="#">전체</a></li>
+            <li><a href="#">볶음</a></li>
+            <li><a href="#">구이</a></li>
+            <li><a href="#">찜</a></li>
+            <li><a href="#">조림</a></li>
+            <li><a href="#">튀김</a></li>
+            <li><a href="#">삶기</a></li>
+            <li><a href="#">부침</a></li>
+            <li><a href="#">무침</a></li>
+            <li><a href="#">회</a></li>
+            <li><a href="#">기타</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div id="popular_recipe">
+        <div id="popular_recipe_title">
+          <h2>Best Recipe</h2>
+        </div>
+        <div id="popular_recipe_list">
+          <div id="popular_recipe_1">
+            <img
+              id="clam_pasta"
+              src="img/봉골레파스타.jpg"
+              alt="봉골레파스타"
+            />
+            <h3><a href="봉골레파스타.html">봉골레 파스타</a></h3>
+            <p>깔끔하면서 시원한 맛의 파스타</p>
+          </div>
+          <div id="popular_recipe_3">
+            <img id="차돌떡볶이" src="img/떡볶이.jpg" alt="떡볶이" />
+            <h3><a href="#">떡볶이</a></h3>
+            <p>스트레스 받을 땐 매콤한 떡볶이</p>
+          </div>
+          <div id="popular_recipe_4">
+            <img id="떡갈비" src="img/떡갈비.jpg" alt="떡갈비" />
+            <h3><a href="#">떡갈비</a></h3>
+            <p>부모님께서 좋아하시는 레시피</p>
+          </div>
+          <div id="popular_recipe_5">
+            <img id="장어덮밥" src="img/장어덮밥.jpg" alt="장어덮밥" />
+            <h3><a href="#">장어덮밥</a></h3>
+            <p>체력이 필요할 때는 장어를 먹어요</p>
+          </div>
+        </div>
+      </div>
+
+      <div id="recipe">
+        <div id="recipe_title">
+          <h2>전체 레시피</h2>
+        </div>
+
+        <div id="recipe_list">
+          <div id="recipe_1">
+            <img
+              id="clam_pasta"
+              src="img/봉골레파스타.jpg"
+              alt="봉골레파스타"
+              onclick="gotoPage()"
+            />
+            <h3><a href="봉골레파스타.html">봉골레 파스타</a></h3>
+            <p>깔끔하면서 시원한 맛의 파스타</p>
+          </div>
+          <div id="recipe_2">
+            <img
+              id="버섯된장파스타"
+              src="img/버섯된장파스타.jpg"
+              alt="버섯된장파스타"
+            />
+            <h3><a href="#">버섯된장파스타</a></h3>
+            <p>한식과 양식의 조합</p>
+          </div>
+          <div id="recipe_3">
+            <img id="치아바타" src="img/치아바타.jpg" alt="치아바타" />
+            <h3><a href="#">치아바타</a></h3>
+            <p>식사빵으로 제격인 치아바타</p>
+          </div>
+          <div id="recipe_4">
+            <img id="부대찌개" src="img/부대찌개.jpg" alt="부대찌개" />
+            <h3><a href="#">부대찌개</a></h3>
+            <p>저녁에는 든든하게 부대찌개</p>
+          </div>
+        </div>
+
+        <div id="recipe_list">
+          <div id="recipe_5">
+            <img
+              id="참나물차돌박이파스타"
+              src="img/참나물차돌박이파스타.jpg"
+              alt="참나물차돌박이파스타"
+            />
+            <h3><a href="#">참나물 차돌박이 파스타</a></h3>
+            <p>나물의 색다른 변신</p>
+          </div>
+          <div id="recipe_6">
+            <img
+              id="눈송이탕수육"
+              src="img/눈송이탕수육.jpg"
+              alt="눈송이탕수육"
+            />
+            <h3><a href="#">눈송이탕수육</a></h3>
+            <p>눈송이처럼 동글동글한 탕수육</p>
+          </div>
+          <div id="recipe_7">
+            <img
+              id="한입가지튀김"
+              src="img/한입가지튀김.jpg"
+              alt="한입가지튀김"
+            />
+            <h3><a href="#">한입 가지튀김</a></h3>
+            <p>가지가 맛없다는 편견을 버려보세요</p>
+          </div>
+          <div id="recipe_8">
+            <img
+              id="감자뇨끼파스타"
+              src="img/감자뇨끼파스타.jpg"
+              alt="감자뇨끼파스타"
+            />
+            <h3><a href="#">감자뇨끼파스타</a></h3>
+            <p>와인과 잘 어울리는 감자뇨끼</p>
+          </div>
+        </div>
+        <div id="recipe_list">
+          <div id="recipe_9">
+            <img id="갈비탕" src="img/갈비탕.jpg" alt="갈비탕" />
+            <h3><a href="#">갈비탕</a></h3>
+            <p>진한 국물과 부드러운 고기로 든든한 한 끼</p>
+          </div>
+          <div id="recipe_10">
+            <img id="푸딩" src="img/푸딩.jpg" alt="푸딩" />
+            <h3><a href="#">푸딩</a></h3>
+            <p>디저트로는 부드러운 푸딩</p>
+          </div>
+          <div id="recipe_11">
+            <img id="딸기라떼" src="img/딸기라떼.JPG" alt="딸기라떼" />
+            <h3><a href="#">딸기라떼</a></h3>
+            <p>디저트로 달달한 딸기라떼</p>
+          </div>
+          <div id="recipe_12">
+            <img id="쌀국수" src="img/쌀국수.JPG" alt="쌀국수" />
+            <h3><a href="#">쌀국수</a></h3>
+            <p>한국에서 즐기는 베트남의 맛</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer id="copyright"></footer>
+  </body>
+</html>
