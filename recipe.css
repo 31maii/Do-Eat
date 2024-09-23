@@ -1,0 +1,308 @@
+@charset "utf-8";
+
+@font-face {
+  font-family: "GyeonggiBatang";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/GyeonggiBatang.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+* {
+  font-family: "GyeonggiBatang";
+  margin: 0px;
+  padding: 0px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+#wrap1 {
+  width: 100%;
+  height: auto;
+  background-color: #f8f5f5;
+  margin: 0 auto;
+}
+
+#logo1 {
+  max-width: 250px;
+  height: 70px;
+  padding: 10px;
+  align-self: center;
+}
+
+#user {
+  display: flex;
+  align-items: center;
+}
+
+button {
+  background-color: #c6b39a;
+  width: 50px;
+  height: 30px;
+  font-size: medium;
+  border: 1px solid #c6b39a;
+}
+
+#header1 {
+  display: flex;
+  overflow: hidden;
+  justify-content: space-between;
+}
+
+#header1 a {
+  font-weight: bold;
+  border: 2px solid #c6b39a;
+  padding: 5px;
+  background-color: #c6b39a;
+  padding: 5px;
+  border-radius: 3px;
+}
+
+#login_button {
+  width: 70px;
+  height: 35px;
+  margin-right: 20px;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+#search {
+  margin-right: 20px;
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+}
+
+#search_text {
+  width: 500px;
+  height: 25px;
+  padding: 5px;
+  border: 3px solid #c6b39a;
+}
+
+#search_button {
+  width: 70px;
+  height: 35px;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  margin-left: 10px;
+}
+
+input {
+  width: 200px;
+  height: 25px;
+  font-size: 15px;
+  border: 2px solid #c6b39a;
+  border-radius: 5px;
+  font-family: Arial;
+}
+
+#login {
+  margin-right: 10px;
+}
+
+#menubar {
+  background-color: #c6b39a;
+  flex-wrap: wrap;
+}
+
+#menubar ul {
+  margin: 10px;
+  padding: 10px;
+  width: 100%;
+}
+
+#menubar ul li {
+  display: inline-block;
+  padding: 0px 50px;
+}
+
+#menubar ul li a {
+  font-weight: bold;
+  font-size: large;
+}
+
+#menubar ul li a:hover {
+  color: white;
+}
+
+#menubar ul li a#recipe {
+  color: #726657;
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  text-align: center;
+  margin: 50px 0px;
+}
+
+.title h1 {
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+
+.title p {
+  font-size: 20px;
+  color: #726657;
+  font-weight: bold;
+}
+
+.category {
+  margin: 20px 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.category h2 {
+  margin: auto 0px;
+  color: #423b33;
+}
+
+.category:nth-of-type(1) {
+  margin-top: 30px;
+}
+
+.category h2 {
+  margin-bottom: 10px;
+  margin-right: 30px;
+}
+
+.category_menu {
+  border: 2px solid #c6b39a;
+  width: 1300px;
+  border-radius: 5px;
+}
+
+.category_menu ul {
+  padding: 10px;
+}
+
+.category_menu ul li {
+  display: inline-block;
+  padding-right: 20px;
+}
+
+.category_menu ul li a {
+  font-size: large;
+  font-weight: bold;
+}
+
+.category_menu ul li a:hover {
+  color: #726657;
+}
+
+#popular_recipe img {
+  width: 300px;
+  height: 300px;
+  margin: 10px 20px;
+  border: 1px solid #726657;
+}
+
+#popular_recipe_title h2 {
+  font-size: 30px;
+  color: #423b33;
+}
+#popular_recipe a {
+  font-weight: bold;
+}
+
+#popular_recipe_list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+#popular_recipe h3 {
+  width: 300px;
+  text-align: center;
+  font-size: larger;
+  margin: 10px auto;
+}
+
+#popular_recipe p {
+  width: 300px;
+  text-align: center;
+  color: grey;
+  font-size: medium;
+  margin: 10px auto;
+  font-family: Arial;
+}
+
+#popular_recipe {
+  margin-top: 50px;
+  margin-left: 10px;
+}
+
+#popular_recipe_title {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+#recipe img {
+  width: 300px;
+  height: 300px;
+  margin: 10px 20px;
+  border: 1px solid #726657;
+}
+
+#recipe_title h2 {
+  font-size: 30px;
+  color: #423b33;
+}
+
+#recipe a {
+  font-weight: bold;
+}
+
+#recipe_list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+#recipe h3 {
+  width: 300px;
+  text-align: center;
+  font-size: larger;
+  margin: 10px auto;
+}
+
+#recipe p {
+  width: 300px;
+  text-align: center;
+  color: grey;
+  font-size: medium;
+  margin: 10px auto;
+  font-family: Arial;
+}
+
+#recipe {
+  margin-top: 50px;
+  margin-left: 10px;
+}
+
+#recipe_title {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}

@@ -1,0 +1,294 @@
+@charset "utf-8";
+
+@font-face {
+  font-family: "GyeonggiBatang";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/GyeonggiBatang.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+* {
+  font-family: "GyeonggiBatang";
+  margin: 0px;
+  padding: 0px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+#wrap {
+  width: 100%;
+  height: auto;
+  background-color: #f8f5f5;
+  margin: 0 auto;
+}
+
+#logo {
+  max-width: 250px;
+  height: 70px;
+  padding: 10px;
+  align-self: center;
+}
+
+button {
+  background-color: #c6b39a;
+  width: 50px;
+  height: 30px;
+  font-size: medium;
+  border: 1px solid #c6b39a;
+}
+
+#menubar {
+  background-color: #c6b39a;
+  flex-wrap: wrap;
+}
+
+#menubar ul {
+  margin: 10px;
+  padding: 10px;
+  width: 100%;
+}
+
+#menubar ul li {
+  display: inline-block;
+  padding: 0px 50px;
+}
+
+#menubar ul li a {
+  font-weight: bold;
+  font-size: large;
+}
+
+#menubar ul li a:hover {
+  color: white;
+}
+
+#menubar ul li a#home {
+  color: #726657;
+}
+
+#today_menu,
+#homecafe {
+  margin: 0px auto;
+  text-align: center;
+  min-height: 500px;
+}
+
+.today_menu,
+.homecafe_menu {
+  margin: 20px;
+}
+
+.today_menu img {
+  width: 300px;
+  height: 300px;
+  margin: 10px;
+  border: 1px solid #726657;
+}
+
+#today_menu a,
+#today_menu a {
+  font-weight: bold;
+}
+
+#copyright {
+  color: grey;
+  margin-left: 30px;
+}
+
+#today_menu_list,
+#homecafe_menu_list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+#today_menu_list h3,
+#homecafe_menu_list h3 {
+  margin-top: 10px;
+  width: 100%;
+  text-align: center;
+}
+
+#today_menu p,
+.homecafe_menu p {
+  width: 300px;
+  height: 30px;
+  text-align: center;
+  color: grey;
+  font-size: medium;
+  margin: 10px auto;
+  font-family: Arial;
+}
+
+#today_menu_title,
+#homecafe_menu_title {
+  margin-left: 5px;
+}
+
+#homecafe_menu {
+  margin-top: 30px;
+  height: 500px;
+}
+
+.homecafe_menu img {
+  width: 300px;
+  height: 300px;
+  margin: 10px;
+  border: 1px solid #726657;
+}
+
+.homecafe_menu p {
+  width: 300px;
+  height: 30px;
+  text-align: center;
+  color: grey;
+  font-size: medium;
+  margin: 10px auto;
+  font-family: Arial;
+}
+
+#header {
+  display: flex;
+  overflow: hidden;
+  justify-content: space-between;
+}
+
+#header a {
+  font-weight: bold;
+  border: 2px solid #c6b39a;
+  padding: 5px;
+  background-color: #c6b39a;
+  padding: 5px;
+  border-radius: 3px;
+}
+
+
+#view_more {
+  width: 70px;
+  height: 70px;
+  margin: auto 0;
+}
+
+input {
+  width: 200px;
+  height: 25px;
+  font-size: 15px;
+  border: 2px solid #c6b39a;
+  border-radius: 5px;
+  font-family: Arial;
+}
+
+#login {
+  margin-right: 10px;
+}
+
+#today_menu_title h2,
+#homecafe_menu_title h2 {
+  margin: 10px 0;
+  font-size: 30px;
+}
+
+#today_menu_title h2 {
+  margin-top: 30px;
+}
+
+#introduction_screen {
+  position: relative;
+  width: 100%;
+  height: 500px;
+  background-color: #726657;
+}
+
+#intro_pic {
+  width: 500px;
+  position: absolute;
+  transform: translateY(-100%);
+}
+
+#introduction {
+  position: relative;
+}
+
+#left,
+#right {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 50px;
+  height: 50px;
+}
+
+#left {
+  left: 0;
+}
+
+#right {
+  right: 0;
+}
+
+#intro1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  color: white;
+}
+
+#intro1 p {
+  position: relative;
+  text-align: right;
+  right: 60px;
+  bottom: 50px;
+  margin: 20px;
+  font-size: 25px;
+}
+
+
+#user {
+  display: flex;
+  align-items: center;
+}
+
+#login_button {
+  width: 70px;
+  height: 35px;
+  margin-right: 20px;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+#search {
+  margin-right: 20px;
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+}
+
+#search_text{
+  width: 500px;
+  height: 25px;
+  padding: 5px;
+  border: 3px solid #c6b39a;
+}
+
+
+#search_button{
+  width: 70px;
+  height: 35px;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  margin-left: 10px;
+}
